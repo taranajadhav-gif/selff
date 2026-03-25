@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+
+    /* Gradient Background */
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    height: 100vh;
+}
+
+/* Main Card */
+.container {
+    width: 60%;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+
+    /* Smooth Shadow */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+
+    /* Animation */
+    transition: transform 0.3s ease;
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+/* Headings */
+h1 {
+    color: #333;
+    font-size: 32px;
+}
+
+h2 {
+    color: #764ba2;
+}
+
+/* Paragraph */
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Image */
+img {
+    width: 150px;
+    border-radius: 50%;
+    margin: 15px 0;
+
+    /* Border glow */
+    border: 4px solid #764ba2;
+}
+
+/* Skills List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin: 8px;
+    padding: 10px 15px;
+    border-radius: 20px;
+
+    /* Gradient Button Style */
+    background: linear-gradient(45deg, #ff6a00, #ee0979);
+    color: white;
+    font-size: 14px;
+
+    transition: transform 0.2s;
+}
+
+ul li:hover {
+    transform: translateY(-3px);
+}
+
+/* Extra Highlight Section */
+.highlight {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+
+    background: #f0f0ff;
+    color: #444;
+    font-style: italic;
+} 
